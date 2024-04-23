@@ -13,7 +13,7 @@
   <body>
     <!-- Navigation -->
     <!-- navbar with white background and only centered ak_logo_2024.png -->
-    <nav class="bg-white p-4">
+    <nav class="p-4">
       <div class="container mx-auto flex justify-center items-center">
         <img src="../img/ak_logo_2024.png" alt="Company Logo" class="h-20" />
       </div>
@@ -21,7 +21,7 @@
 
     <!-- Hero Section -->
     <div class="max-w-screen-xl mx-auto">
-      <section class="relative">
+      <section class="relative mx-2">
         <!-- use ../img/hero_image_mobile.png on small screens -->
         <img
           src="../img/hero_image_mobile.png"
@@ -30,21 +30,21 @@
         />
         <!-- use ../img/hero_image_desktop.png on desktop screens -->
         <img
-          src="../img/hero_image_desktop.png"
-          alt="Hero Image"
+          src="../img/hero_image_desktop2.png"
+          alt="Hero Image with snow plow tractor and excavator"
           class="hidden md:block w-full h-96 object-cover"
         />
         <!-- text color black, hero text that is right aligned on desktop and left aligned on mobile. Text should span max 40% of container on desktop and 50% on mobile -->
         <div
           class="absolute inset-0 flex justify-end md:justify-start items-center text-black"
         >
-          <div class="text-right md:text-left md:w-2/5">
-            <h1 class="text-3xl md:text-6xl font-bold mb-4">
+          <div class="text-right text-shadow w-3/5 md:text-left md:w-2/5">
+            <h1 class="text-2xl lg:text-5xl font-bold mb-4">
               Kokenutta koneurakointia Kuhmoisista
             </h1>
-            <p class="text-sm md:text-xl text-shadow">
+            <p class="text-sm md:text-lg">
               Tarjoamme monipuolisia maanrakennus- ja
-              traktoriurakointipalveluita Itäisellä Pirkanmaalla ja
+              traktoriurakointipalveluita itäisellä Pirkanmaalla ja
               Keski-Suomessa. Luotettavuutemme perustuu vuosikymmenten
               kokemukseen ja moderniin kalustoomme, jonka ansiosta selätämme
               haasteet niin järvenrannoilla kuin korpimaastossakin.
@@ -54,19 +54,75 @@
       </section>
 
       <!-- Services -->
-      <section class="container mx-auto p-6">
-        <h2 class="text-3xl font-bold text-center mb-6">Our Services</h2>
-        <div class="grid grid-cols-3 gap-4">
+      <section class="py-6">
+        <h2 class="text-3xl font-bold text-center mb-6">Palvelumme</h2>
+        <!-- 4 columns 1 row on lg, 2x2 on md, 1x4 on small devices -->
+        <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 mx-2">
           <!-- Repeat for each service -->
           <div class="bg-white shadow-lg rounded-lg overflow-hidden">
             <img
-              src="service-image.jpg"
-              alt="Service Image"
-              class="w-full h-32 object-cover"
+              src="../img/uudisrakentaminen.jpg"
+              alt="Uudisrakentaminen ja saneeraus, kuvituskuva"
+              class="card-image"
             />
             <div class="p-4">
-              <h3 class="text-xl font-bold">Service Name</h3>
-              <p>Service description goes here. This explains the service.</p>
+              <h3 class="text-xl font-bold">Uudisrakentaminen ja saneeraus</h3>
+              <p>
+                Tarjoamme monipuoliset maanrakennuspalvelut uudisrakentamiseen
+                ja piharakentamiseen, sisältäen jäte- ja puhdasvesikaivojen
+                asennukset. Toteutamme projektit ammattitaidolla, pienistä
+                pihatöistä laajoihin saneerauskohteisiin.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img
+              src="../img/auraus.jpg"
+              alt="Tiestön hoito ja parannukset, kuvituskuva"
+              class="card-image"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-bold">Tiestön hoito ja parannukset</h3>
+              <p>
+                Huolehdimme teiden kunnosta ja turvallisuudesta tarjoamalla
+                perusparannuksia ja ylläpitopalveluita avaimet käteen
+                -periaatteella. Kattava tiestönhoito sisältää niin kesäajan
+                niitot ja lanaukset kuin talvikauden lumityöt.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img
+              src="../img/metsamaan_tyot.jpg"
+              alt="Metsämaan muokkaukset, kuvituskuva"
+              class="card-image"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-bold">Metsämaan muokkaukset</h3>
+              <p>
+                Metsämaan muokkaus ja uudistus parantaa metsän kasvuolosuhteita.
+                Palveluihimme kuuluvat ojitukset, laikutus ja mätästys, jotka
+                edistävät tervettä metsänkasvua ja lisäävät metsän arvoa.
+              </p>
+            </div>
+          </div>
+
+          <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img
+              src="../img/hakkuu.jpg"
+              alt="Service Image"
+              class="card-image"
+            />
+            <div class="p-4">
+              <h3 class="text-xl font-bold">Harvennukset ja hakkuut</h3>
+              <p>
+                Suoritamme metsien harvennukset ja energiapuun hakkuut
+                talvikaudella ammattitaidolla. Hakkuumme tukevat metsäsi
+                terveyttä ja tuottavuutta, varmistaen optimaalisen kasvun ja
+                hyvinvoinnin.
+              </p>
             </div>
           </div>
         </div>
