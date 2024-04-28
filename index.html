@@ -9,28 +9,31 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <!-- favicon -->
+    <link rel="icon" href="img/favicon.ico" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
   </head>
   <body>
     <!-- Navigation -->
     <!-- navbar with white background and only centered ak_logo_2024.png -->
     <nav class="p-4">
       <div class="container mx-auto flex justify-center items-center">
-        <img src="../img/ak_logo_2024.png" alt="Company Logo" class="h-20" />
+        <img src="img/ak_logo_2024.png" alt="Company Logo" class="h-20" />
       </div>
     </nav>
 
     <!-- Hero Section -->
     <div class="max-w-screen-xl mx-auto">
       <section class="relative mx-2">
-        <!-- use ../img/hero_image_mobile.png on small screens -->
+        <!-- use img/hero_image_mobile.png on small screens -->
         <img
-          src="../img/hero_image_mobile.png"
+          src="img/hero_image_mobile.png"
           alt="Hero Image"
           class="block md:hidden w-full h-96 object-cover"
         />
-        <!-- use ../img/hero_image_desktop.png on desktop screens -->
+        <!-- use img/hero_image_desktop.png on desktop screens -->
         <img
-          src="../img/hero_image_desktop2.png"
+          src="img/hero_image_desktop2.png"
           alt="Hero Image with snow plow tractor and excavator"
           class="hidden md:block w-full h-96 object-cover"
         />
@@ -61,7 +64,7 @@
           <!-- Repeat for each service -->
           <div class="bg-white shadow-lg rounded-lg overflow-hidden">
             <img
-              src="../img/uudisrakentaminen.jpg"
+              src="img/uudisrakentaminen.jpg"
               alt="Uudisrakentaminen ja saneeraus, kuvituskuva"
               class="card-image"
             />
@@ -78,7 +81,7 @@
 
           <div class="bg-white shadow-lg rounded-lg overflow-hidden">
             <img
-              src="../img/auraus.jpg"
+              src="img/auraus.jpg"
               alt="Tiestön hoito ja parannukset, kuvituskuva"
               class="card-image"
             />
@@ -95,7 +98,7 @@
 
           <div class="bg-white shadow-lg rounded-lg overflow-hidden">
             <img
-              src="../img/metsamaan_tyot.jpg"
+              src="img/metsamaan_tyot.jpg"
               alt="Metsämaan muokkaukset, kuvituskuva"
               class="card-image"
             />
@@ -110,11 +113,7 @@
           </div>
 
           <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img
-              src="../img/hakkuu.jpg"
-              alt="Service Image"
-              class="card-image"
-            />
+            <img src="img/hakkuu.jpg" alt="Service Image" class="card-image" />
             <div class="p-4">
               <h3 class="text-xl font-bold">Harvennukset ja hakkuut</h3>
               <p>
@@ -129,19 +128,33 @@
       </section>
 
       <!-- Partners -->
-      <section class="bg-gray-100 p-6">
-        <div class="container mx-auto text-center">
-          <h2 class="text-3xl font-bold mb-6">Our Partners</h2>
-          <div class="flex justify-center items-center gap-4">
-            <img src="partner-logo1.png" alt="Partner Logo" class="h-12" />
-            <img src="partner-logo2.png" alt="Partner Logo" class="h-12" />
-            <!-- More partner logos -->
+      <section class="p-6">
+        <div class="mx-auto text-center">
+          <h2 class="text-3xl font-bold mb-6">Yhteistyökumppanit</h2>
+          <div
+            class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 items-center justify-center"
+          >
+            <div class="flex items-center justify-center my-8">
+              <img src="img/metsahallitus.png" alt="Metsähallituksen logo" />
+            </div>
+            <div class="flex items-center justify-center my-8">
+              <img src="img/destia.png" alt="Destian logo" />
+            </div>
+            <div class="flex items-center justify-center my-8">
+              <img
+                src="img/mkup.png"
+                alt="Multian kone ja urakointipalvelu logo"
+              />
+            </div>
+
+            <div class="flex items-center justify-center lg:col-span-3">
+              Yhteistyössä myös
+            </div>
           </div>
         </div>
       </section>
-
       <!-- Contact Form -->
-      <section class="container mx-auto p-6">
+<!--       <section class="container mx-auto p-6">
         <h2 class="text-3xl font-bold text-center mb-6">Contact Us</h2>
         <form action="#" method="POST" class="max-w-md mx-auto">
           <div class="mb-4">
@@ -196,12 +209,12 @@
           </button>
         </form>
       </section>
-    </div>
+    </div> -->
     <!-- Contact Information -->
-    <footer class="bg-gray-800 text-white p-6">
+<!--     <footer class="bg-gray-800 text-white p-6">
       <div class="container mx-auto text-center">
         <p>Contact us at: ansiomakioy@gmail</p>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
