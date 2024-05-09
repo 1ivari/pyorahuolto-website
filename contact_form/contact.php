@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $body = "Nimi: $name\nSähköpostisoite: $email\nPuhelinnumero: $phone\nViesti: $message";
   $headers = "From:" . $from;
   if (mail(implode(",", $to), $subject, $body, $headers)) {
-    // header("Location: /index.html");  // Redirect to the home page
+    header("Location: /index.html");  // Redirect to the home page
     // echo "Lähetetty.";
     exit();
   } else {

@@ -1,5 +1,5 @@
 function showThankYouMessage(event) {
-  // event.preventDefault(); // Prevent the form from submitting immediately
+  event.preventDefault(); // Prevent the form from submitting immediately
 
   var formDiv = document.getElementById('contact-form-div');
 
@@ -20,6 +20,8 @@ function showThankYouMessage(event) {
   formDiv.parentNode.appendChild(thankYouMessage); // Append the message
 
   // Optional: You can submit the form via JavaScript if needed
-  // var form = document.getElementById('contact-form');
-  // form.submit();
+  var form = document.getElementById('contact-form');
+  setTimeout(function () {
+    form.submit(); // Submit the form after a delay
+  }, 1500); // Adjust delay as needed
 }
