@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   ini_set( 'display_errors', 1 );
   error_reporting( E_ALL );
   $from = "yhteydenottolomake@ansiomaki.fi";
-  $to = ["iivari@distio.fi","iivari.heikkila@gmail.com"];
+  $to = ["iivari@distio.fi","ansiomakioy@gmail.com"];
   $subject = "Uusi yhteydenotto verkkosivuiltanne";
   $body = "Nimi: $name\nSähköpostisoite: $email\nPuhelinnumero: $phone\nViesti: $message";
   $headers = "From:" . $from;
