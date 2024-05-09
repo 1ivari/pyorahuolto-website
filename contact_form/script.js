@@ -1,5 +1,5 @@
 function showThankYouMessage(event) {
-  event.preventDefault(); // Prevent the form from submitting immediately
+  // event.preventDefault(); // Prevent the form from submitting immediately
 
   var formDiv = document.getElementById('contact-form-div');
   var thankYouMessage = document.createElement('div');
