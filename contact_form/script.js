@@ -1,7 +1,7 @@
 function showThankYouMessage(event) {
   event.preventDefault(); // Prevent the form from submitting immediately
 
-  var formDiv = document.getElementById('contact-form');
+  var formDiv = document.getElementById('contact-form-div');
   var thankYouMessage = document.createElement('div');
   thankYouMessage.textContent =
     'Kiitos viestistänne, otamme teihin yhteyttä mahdollisimman pian!';
