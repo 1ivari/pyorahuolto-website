@@ -2,6 +2,7 @@ function showThankYouMessage(event) {
   // event.preventDefault(); // Prevent the form from submitting immediately
 
   var formDiv = document.getElementById('contact-form-div');
+  var form = document.getElementById('contact-form');
   var thankYouMessage = document.createElement('div');
   thankYouMessage.textContent =
     'Kiitos viestistänne, otamme teihin yhteyttä mahdollisimman pian!';
@@ -19,5 +20,5 @@ function showThankYouMessage(event) {
   formDiv.parentNode.appendChild(thankYouMessage); // Append the message
 
   // Optional: You can submit the form via JavaScript if needed
-  // formDiv.querySelector('form').submit();
+  form.submit();
 }
