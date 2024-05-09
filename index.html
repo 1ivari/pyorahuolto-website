@@ -257,7 +257,7 @@
           <form
             method="POST"
             action="contact_form/contact.php"
-            onsubmit="showThankYouMessage()"
+            id="contact-form"
           >
             <div class="mb-4">
               <label for="name" class="block mb-2 text-sm font-medium"
@@ -293,7 +293,7 @@
                 id="email"
                 name="email"
                 required
-                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
                 title="Vaadittavat tiedot: Sähköpostiosoite"
                 class="w-full px-3 py-2 border border-gray-300 rounded-md"
               />
