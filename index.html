@@ -1,26 +1,44 @@
 <!DOCTYPE html>
 <html lang="fi">
   <head>
+    <script src="contact_form/script.js"></script>
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ansiomäen Konepalvelu</title>
-    <link href="./output2.css" rel="stylesheet" />
+    <title>Ansiomäen Konepalvelu Oy | Koneurakointia Keski-Suomessa</title>
+    <meta
+      name="description"
+      content="Ansiomäen Konepalvelu Oy tarjoaa koneurakointia Keski-Suomen ja Pirkanmaan alueella. Ota yhteyttä!"
+    />
+    <link href="./output.css" rel="stylesheet" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
     <!-- favicon -->
     <link rel="icon" href="img/favicon.ico" />
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-PJBXKQJF"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- Navigation -->
     <!-- navbar with white background and only centered ak_logo_2024.png -->
     <nav class="p-4">
       <div class="container mx-auto flex justify-center items-center">
         <img
           src="img/ak_logo_2024.png"
-          alt="Ansiomäen Konepalvelu Oy"
+          alt="Ansiomäen Konepalvelu Oy - Logo"
           class="h-20"
         />
       </div>
@@ -32,13 +50,13 @@
         <!-- use img/hero_image_mobile.png on small screens -->
         <img
           src="img/hero_image_mobile.png"
-          alt="Hero Image"
+          alt="Ansiomäen Konepalvelu - taustakuva"
           class="block md:hidden w-full h-96 object-cover"
         />
         <!-- use img/hero_image_desktop.png on desktop screens -->
         <img
           src="img/hero_image_desktop2.png"
-          alt="Hero Image with snow plow tractor and excavator"
+          alt="Ansiomäen Konepalvelu - taustakuva"
           class="hidden md:block w-full h-96 object-cover"
         />
         <!-- text color black, hero text that is right aligned on desktop and left aligned on mobile. Text should span max 40% of container on desktop and 50% on mobile -->
@@ -69,7 +87,7 @@
           <div class="bg-white shadow-lg rounded-lg overflow-hidden">
             <img
               src="img/uudisrakentaminen.jpg"
-              alt="Uudisrakentaminen ja saneeraus, kuvituskuva"
+              alt="Ansiomäen konepalvelu tarjoaa uudisrakentamisen ja saneerauksen palveluita, kuvituskuva"
               class="card-image"
             />
             <div class="p-4">
@@ -86,7 +104,7 @@
           <div class="bg-white shadow-lg rounded-lg overflow-hidden">
             <img
               src="img/auraus.jpg"
-              alt="Tiestön hoito ja parannukset, kuvituskuva"
+              alt="Ansiomäen konepalvelu tarjoaa tiestön hoitoa ja parannuksia, kuvituskuva"
               class="card-image"
             />
             <div class="p-4">
@@ -103,7 +121,7 @@
           <div class="bg-white shadow-lg rounded-lg overflow-hidden">
             <img
               src="img/metsamaan_tyot.jpg"
-              alt="Metsämaan muokkaukset, kuvituskuva"
+              alt="Ansiomäen konepalvelu tarjoaa metsämaan muokkauksia, kuvituskuva"
               class="card-image"
             />
             <div class="p-4">
@@ -117,7 +135,11 @@
           </div>
 
           <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img src="img/hakkuu.jpg" alt="Service Image" class="card-image" />
+            <img
+              src="img/hakkuu.jpg"
+              alt="Ansiomäen konepalvelu tarjoaa hakkuupalveluita, kuvituskuva"
+              class="card-image"
+            />
             <div class="p-4">
               <h3 class="text-xl font-bold">Harvennukset ja hakkuut</h3>
               <p>
@@ -139,22 +161,37 @@
             class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 items-center justify-center"
           >
             <div class="flex items-center justify-center my-8">
-              <img src="img/metsahallitus.png" alt="Metsähallituksen logo" />
+              <a href="https://www.metsa.fi/" target="_blank">
+                <img
+                  src="img/metsahallitus.png"
+                  alt="Yhteistyökumppani Metsähallituksen logo"
+                />
+              </a>
             </div>
             <div class="flex items-center justify-center my-8">
-              <img src="img/destia.png" alt="Destian logo" />
+              <a href="https://www.destia.fi/" target="_blank">
+                <img
+                  src="img/destia.png"
+                  alt="Yhteistyökumppani Destian logo"
+                />
+              </a>
             </div>
             <div class="flex items-center justify-center my-8">
-              <img
-                src="img/mkup-transparent.png"
-                alt="Multian kone ja urakointipalvelu logo"
-              />
+              <a href="https://www.mkup.fi/" target="_blank">
+                <img
+                  src="img/mkup-transparent.png"
+                  alt="Yhteistyökumppani Multian kone ja urakointipalvelu logo"
+                />
+              </a>
             </div>
 
             <div class="flex items-center justify-center lg:col-span-3">
               <div class="grid grid-cols-1 justify-center">
                 <div class="flex items-center justify-center">
-                  <img src="img/hshake.png" alt="Hämeen seudun kone logo" />
+                  <img
+                    src="img/hshake.png"
+                    alt="Luotettavaa palvelua, kuvituskuva"
+                  />
                 </div>
                 <div>Tiiviissä yhteistyössä myös:</div>
                 <div>
@@ -177,23 +214,29 @@
         <div class="bg-white shadow-lg rounded-lg overflow-hidden p-4">
           <h3 class="text-xl font-bold">Ansiomäen Konepalvelu Oy</h3>
           <div class="flex items-center mt-2">
-            <img src="img/person-vcard.svg" alt="Card Icon" />
+            <img src="img/person-vcard.svg" alt="Yrittäjä Antti Ansiomäki" />
             <p class="ml-4">Antti Ansiomäki</p>
           </div>
           <div class="flex items-center mt-4">
-            <img src="img/signpost-split.svg" alt="Sign Icon" />
+            <img
+              src="img/signpost-split.svg"
+              alt="Osoite Ansiomäentie 48 17800 Kuhmoinen"
+            />
             <p class="ml-4">Ansiomäentie 48 17800 Kuhmoinen</p>
           </div>
           <div class="flex items-center mt-4">
-            <img src="img/telephone.svg" alt="Phone Icon" />
+            <img src="img/telephone.svg" alt="Puhelinnumero 040 743 68 65" />
             <p class="ml-4">040 743 68 65</p>
           </div>
           <div class="flex items-center my-4">
-            <img src="img/envelope-at.svg" alt="Envelope Icon" />
+            <img
+              src="img/envelope-at.svg"
+              alt="Sähköpostiosoite ansiomakioy@gmail.com"
+            />
             <p class="ml-4">ansiomakioy@gmail.com</p>
           </div>
           <div class="flex items-center my-4">
-            <img src="img/tag.svg" alt="Tag icon" />
+            <img src="img/tag.svg" alt="Y-tunnus 2618195-4" />
             <p class="ml-4">Y-tunnus 2618195-4</p>
           </div>
           <hr />
@@ -206,12 +249,19 @@
           <p class="mt-2"><strong>Välittäjä</strong></p>
           <p>Maventa</p>
         </div>
-        <div class="bg-white shadow-lg rounded-lg overflow-hidden p-4">
+        <div
+          class="bg-white shadow-lg rounded-lg overflow-hidden p-4"
+          id="contact-form"
+        >
           <h3 class="text-xl font-bold mb-4">Ota yhteyttä</h3>
-          <form>
+          <form
+            method="POST"
+            action="contact_form/contact.php"
+            onsubmit="showThankYouMessage()"
+          >
             <div class="mb-4">
               <label for="name" class="block mb-2 text-sm font-medium"
-                >Nimi</label
+                >Nimi *</label
               >
               <input
                 type="text"
@@ -236,7 +286,7 @@
             </div>
             <div class="mb-4">
               <label for="email" class="block mb-2 text-sm font-medium"
-                >Sähköpostiosoite</label
+                >Sähköpostiosoite*</label
               >
               <input
                 type="email"
@@ -261,6 +311,7 @@
             </div>
             <button
               type="submit"
+              value="Submit"
               class="px-4 py-2 text-white bg-blue-500 rounded-md"
             >
               Lähetä
@@ -273,5 +324,6 @@
       <a href="https://www.distio.fi">&copy; 2024 Distio Oy</a>. All rights
       reserved.
     </footer>
+    <script type="module" src="cookieconsent-config.js"></script>
   </body>
 </html>
