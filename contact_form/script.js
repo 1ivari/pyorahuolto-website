@@ -1,4 +1,6 @@
-function showThankYouMessage() {
+function showThankYouMessage(event) {
+  event.preventDefault(); // Prevent the form from submitting immediately
+
   var formDiv = document.getElementById('contact-form');
   var thankYouMessage = document.createElement('div');
   thankYouMessage.textContent =
@@ -12,5 +14,10 @@ function showThankYouMessage() {
     'font-bold',
     'py-2'
   );
-  formDiv.parentNode.replaceChild(thankYouMessage, formDiv);
+
+  formDiv.style.display = 'none'; // Hide the form
+  formDiv.parentNode.appendChild(thankYouMessage); // Append the message
+
+  // Optional: You can submit the form via JavaScript if needed
+  // formDiv.querySelector('form').submit();
 }
