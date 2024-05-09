@@ -15,6 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $headers = "From:" . $from;
   if (mail(implode(",", $to), $subject, $body, $headers)) {
     // header("Location: /index.html");  // Redirect to the home page
+    echo "Lähetetty.";
     exit();
   } else {
     echo "Sorry, there was an error sending your message. Please try again later.";
