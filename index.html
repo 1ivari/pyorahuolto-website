@@ -5,14 +5,16 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ansiomäen Konepalvelu Oy | Koneurakointia Keski-Suomessa</title>
+    <title>Ilmajoen Pyörähuolto</title>
     <meta
       name="description"
-      content="Ansiomäen Konepalvelu Oy tarjoaa koneurakointia Keski-Suomen ja Pirkanmaan alueella. Ota yhteyttä!"
+      content="Ilmajoen Pyörähuolto tarjoaa pyörähuoltoa reippalla otteella. 4H yritys!"
     />
     <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
       rel="stylesheet"
     />
 
@@ -37,9 +39,9 @@
     <nav class="p-4">
       <div class="container mx-auto flex justify-center items-center">
         <img
-          src="img/ak_logo_2024.png"
-          alt="Ansiomäen Konepalvelu Oy - Logo"
-          class="h-20"
+          src="img/ip_logo_svg.svg"
+          alt="ilmajoen_pyörähuolto_logo"
+          class="logo-top"
         />
       </div>
     </nav>
@@ -49,14 +51,14 @@
       <section class="relative mx-2 py-6">
         <!-- use img/hero_image_mobile.png on small screens -->
         <img
-          src="img/hero_image_mobile.png"
-          alt="Ansiomäen Konepalvelu - taustakuva"
+          src="img/hero_mobile_bike2.png"
+          alt="Ilmajoen Pyörähuolto - taustakuva"
           class="block md:hidden w-full h-96 object-cover"
         />
         <!-- use img/hero_image_desktop.png on desktop screens -->
         <img
-          src="img/hero_image_desktop2.png"
-          alt="Ansiomäen Konepalvelu - taustakuva"
+          src="img/hero_image.svg"
+          alt="Ilmajoen Pyörähuolto - taustakuva"
           class="hidden md:block w-full h-96 object-cover"
         />
         <!-- text color black, hero text that is right aligned on desktop and left aligned on mobile. Text should span max 40% of container on desktop and 50% on mobile -->
@@ -65,259 +67,131 @@
         >
           <div class="text-right text-shadow w-3/5 md:text-left md:w-2/5">
             <h1 class="text-3xl lg:text-5xl font-bold mb-4">
-              Kokenutta koneurakointia Kuhmoisista
+              Ilmajoen pyörähuolto
             </h1>
             <p class="text-sm md:text-lg">
-              Tarjoamme monipuolisia maanrakennus- ja
-              traktoriurakointipalveluita itäisellä Pirkanmaalla ja
-              Keski-Suomessa. Luotettavuutemme perustuu vuosikymmenten
-              kokemukseen ja moderniin kalustoomme, jonka ansiosta selätämme
-              haasteet niin järvenrannoilla kuin korpimaastossakin.
+              Pyörähuoltoa paikallisesti. Tarjoamme huoltoja Ilmajoelta
+              reippaalla ja nuorekkaalla otteella. Varaa aika puhelimitse tai
+              sähköpostitse.
+              <strong
+                >Huolehdimme pyöräsi noutamisesta ja palautuksesta huollettuna
+                Ilmajoella ja lähialueilla. </strong
+              >Nauti sujuvasta pyöräilystä ilman huolia!
             </p>
           </div>
         </div>
       </section>
       <hr />
       <!-- Services -->
-      <section class="py-6">
-        <h2 class="text-3xl font-bold text-center mb-6">Palvelumme</h2>
-        <!-- 4 columns 1 row on lg, 2x2 on md, 1x4 on small devices -->
-        <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-4 mx-2">
-          <!-- Repeat for each service -->
+      <section class="relative h-[100px] flex items-center justify-center" style="background: linear-gradient(to right, #F8F9FA 0%, #358FF6 10%, #358FF6 90%, #F8F9FA 100%);">
+        <h2 class="text-3xl font-bold text-white uppercase">HUOLTOPALVELUT</h2>
+      </section>
+        <!-- 2 columns 1 row on md and higher, 2 rows 1 column on small devices -->
+        <div class="grid md:grid-cols-2 grid-cols-1 gap-4 mx-2">
+          <!-- Perushuolto -->
           <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img
-              src="img/uudisrakentaminen.jpg"
-              alt="Ansiomäen konepalvelu tarjoaa uudisrakentamisen ja saneerauksen palveluita, kuvituskuva"
-              class="card-image"
-            />
             <div class="p-4">
-              <h3 class="text-xl font-bold">Uudisrakentaminen ja saneeraus</h3>
-              <p>
-                Tarjoamme monipuoliset maanrakennuspalvelut uudisrakentamiseen
-                ja piharakentamiseen, sisältäen jäte- ja puhdasvesikaivojen
-                asennukset. Toteutamme projektit ammattitaidolla, pienistä
-                pihatöistä laajoihin saneerauskohteisiin.
-              </p>
+              <h3 class="text-xl font-bold mb-3">Perushuolto 30€</h3>
+              <ul class="list-disc pl-5">
+                <li>
+                  Pyörän pesu, sisältäen voimansiirron puhdistuksen
+                </li>
+                <li>
+                  Yleinen kuntotarkastus, pultticheckki sekä rengaspaineiden tarkastus ja täyttö
+                </li>
+                <li>
+                  Jarrujen ja vaihteiston säätö. 
+                </li>
+                <li>
+                  Kulutusosien vaihto tarpeen mukaan, varaosat erillisveloituksella.
+                </li>
+              </ul>
             </div>
           </div>
 
+          <!-- Täyshuolto -->
           <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img
-              src="img/auraus.jpg"
-              alt="Ansiomäen konepalvelu tarjoaa tiestön hoitoa ja parannuksia, kuvituskuva"
-              class="card-image"
-            />
             <div class="p-4">
-              <h3 class="text-xl font-bold">Tiestön hoito ja parannukset</h3>
-              <p>
-                Huolehdimme teiden kunnosta ja turvallisuudesta tarjoamalla
-                perusparannuksia ja ylläpitopalveluita avaimet käteen
-                -periaatteella. Kattava tiestönhoito sisältää niin kesäajan
-                niitot ja lanaukset kuin talvikauden lumityöt.
-              </p>
-            </div>
-          </div>
-
-          <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img
-              src="img/metsamaan_tyot.jpg"
-              alt="Ansiomäen konepalvelu tarjoaa metsämaan muokkauksia, kuvituskuva"
-              class="card-image"
-            />
-            <div class="p-4">
-              <h3 class="text-xl font-bold">Metsämaan muokkaukset</h3>
-              <p>
-                Metsämaan muokkaus ja uudistus parantaa metsän kasvuolosuhteita.
-                Palveluihimme kuuluvat ojitukset, laikutus ja mätästys, jotka
-                edistävät tervettä metsänkasvua ja lisäävät metsän arvoa.
-              </p>
-            </div>
-          </div>
-
-          <div class="bg-white shadow-lg rounded-lg overflow-hidden">
-            <img
-              src="img/hakkuu.jpg"
-              alt="Ansiomäen konepalvelu tarjoaa hakkuupalveluita, kuvituskuva"
-              class="card-image"
-            />
-            <div class="p-4">
-              <h3 class="text-xl font-bold">Harvennukset ja hakkuut</h3>
-              <p>
-                Suoritamme metsien harvennukset ja energiapuun hakkuut
-                talvikaudella ammattitaidolla. Hakkuumme tukevat metsäsi
-                terveyttä ja tuottavuutta, varmistaen optimaalisen kasvun ja
-                hyvinvoinnin.
-              </p>
+              <h3 class="text-xl font-bold mb-3">Täyshuolto alk. 60€</h3>
+              <ul class="list-disc pl-5">
+                <li>
+                  Kaikki perushuoltoon kuuluvat toimet.
+                </li>
+                <li>
+                  Ohjainlaakerin rasvaus
+                </li>
+                <li>
+                  Pyörännapojen huolto.
+                </li>
+                <li>
+                  Kaikkien renkaanlaakereiden tarkastus ja huolto tarvittaessa.
+                </li>
+                <li>
+                  Maalipinnan suojaus vahaamalla.
+                </li>
+              </ul>
             </div>
           </div>
         </div>
       </section>
       <hr />
       <!-- Partners -->
-      <section class="p-6">
-        <div class="mx-auto text-center">
-          <h2 class="text-3xl font-bold mb-6">Yhteistyökumppanit</h2>
-          <div
-            class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 items-center justify-center"
-          >
-            <div class="flex items-center justify-center my-8">
-              <a href="https://www.metsa.fi/" target="_blank">
-                <img
-                  src="img/metsahallitus.png"
-                  alt="Yhteistyökumppani Metsähallituksen logo"
-                />
-              </a>
-            </div>
-            <div class="flex items-center justify-center my-8">
-              <a href="https://www.destia.fi/" target="_blank">
-                <img
-                  src="img/destia.png"
-                  alt="Yhteistyökumppani Destian logo"
-                />
-              </a>
-            </div>
-            <div class="flex items-center justify-center my-8">
-              <a href="https://www.mkup.fi/" target="_blank">
-                <img
-                  src="img/mkup-transparent.png"
-                  alt="Yhteistyökumppani Multian kone ja urakointipalvelu logo"
-                />
-              </a>
-            </div>
-
-            <div class="flex items-center justify-center lg:col-span-3">
-              <div class="grid grid-cols-1 justify-center">
-                <div class="flex items-center justify-center">
-                  <img
-                    src="img/hshake.png"
-                    alt="Luotettavaa palvelua, kuvituskuva"
-                  />
-                </div>
-                <div>Tiiviissä yhteistyössä myös:</div>
-                <div>
-                  <strong>Metsäyhtiöt</strong>
-                </div>
-                <div>
-                  <strong>Kunnat ja yksityinen sektori</strong>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <hr />
+    
       <h2 class="text-3xl font-bold mb-6 text-center p-6">Yhteystiedot</h2>
       <!-- Contact -->
       <section
         class="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-4 mx-2"
       >
         <div class="bg-white shadow-lg rounded-lg overflow-hidden p-4">
-          <h3 class="text-xl font-bold">Ansiomäen Konepalvelu Oy</h3>
+          <h3 class="text-xl font-bold">Ilmajoen Pyörähuolto</h3>
           <div class="flex items-center mt-2">
-            <img src="img/person-vcard.svg" alt="Yrittäjä Antti Ansiomäki" />
-            <p class="ml-4">Antti Ansiomäki</p>
+            <img src="img/person-vcard.svg" alt="Yrittäjä Onni Heikkilä" />
+            <p class="ml-4">Onni Heikkilä</p>
           </div>
           <div class="flex items-center mt-4">
             <img
               src="img/signpost-split.svg"
-              alt="Osoite Ansiomäentie 48 17800 Kuhmoinen"
+              alt="Osoite Kaartotie 14 60800 Ilmajoki"
             />
-            <p class="ml-4">Ansiomäentie 48 17800 Kuhmoinen</p>
+            <p class="ml-4">Kaartotie 14 60800 Ilmajoki</p>
           </div>
           <div class="flex items-center mt-4">
-            <img src="img/telephone.svg" alt="Puhelinnumero 040 743 68 65" />
-            <p class="ml-4">040 743 68 65</p>
+            <img src="img/telephone.svg" alt="Puhelinnumero 044 91 49 143" />
+            <p class="ml-4">040 914 91 43</p>
           </div>
           <div class="flex items-center my-4">
             <img
               src="img/envelope-at.svg"
-              alt="Sähköpostiosoite ansiomakioy@gmail.com"
+              alt="Sähköpostiosoite ilmajoenpyorahuolto@gmail.com"
             />
-            <p class="ml-4">ansiomakioy@gmail.com</p>
+            <p class="ml-4">ilmajoenpyorahuolto@gmail.com</p>
           </div>
-          <div class="flex items-center my-4">
+          <!-- <div class="flex items-center my-4">
             <img src="img/tag.svg" alt="Y-tunnus 2618195-4" />
             <p class="ml-4">Y-tunnus 2618195-4</p>
-          </div>
+          </div> -->
           <hr />
-          <h3 class="text-xl font-bold my-2">Laskutustiedot</h3>
-          <p>Paperilaskut yhtiön postiosoitteseen.</p>
-          <p class="mt-2"><strong>Verkkolaskuosoite</strong></p>
-          <p>003726181954</p>
-          <p class="mt-2"><strong>Operaattoritunnus</strong></p>
-          <p>003721291126</p>
-          <p class="mt-2"><strong>Välittäjä</strong></p>
-          <p>Maventa</p>
+          <div class="mt-4">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1889.0715984670405!2d22.57646661627359!3d62.73354998260882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4684a10b7f430f45%3A0x260746cc76e32740!2sKaartotie%2014%2C%2060800%20Ilmajoki!5e0!3m2!1sfi!2sfi!4v1652345678901!5m2!1sfi!2sfi"
+              width="100%"
+              height="300"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
         </div>
-        <div
-          class="bg-white shadow-lg rounded-lg overflow-hidden p-4"
-          id="contact-form-div"
-        >
-          <h3 class="text-xl font-bold mb-4">Ota yhteyttä</h3>
-          <form
-            method="POST"
-            action="contact_form/contact.php"
-            onsubmit="showThankYouMessage(event)"
-            id="contact-form"
-          >
-            <div class="mb-4">
-              <label for="name" class="block mb-2 text-sm font-medium"
-                >Nimi *</label
-              >
-              <input
-                type="text"
-                id="name"
-                name="name"
-                required
-                pattern=".{3,}"
-                title="Vaadittavat tiedot: Nimi (vähintään 3 merkkiä)"
-                class="w-full px-3 py-2 border border-gray-300 rounded-md"
-              />
-            </div>
-            <div class="mb-4">
-              <label for="phone" class="block mb-2 text-sm font-medium"
-                >Puhelinnumero</label
-              >
-              <input
-                type="tel"
-                id="phone"
-                name="phone"
-                class="w-full px-3 py-2 border border-gray-300 rounded-md"
-              />
-            </div>
-            <div class="mb-4">
-              <label for="email" class="block mb-2 text-sm font-medium"
-                >Sähköpostiosoite*</label
-              >
-              <input
-                type="email"
-                id="email"
-                name="email"
-                required
-                pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
-                title="Vaadittavat tiedot: Sähköpostiosoite"
-                class="w-full px-3 py-2 border border-gray-300 rounded-md"
-              />
-            </div>
-            <div class="mb-4">
-              <label for="message" class="block mb-2 text-sm font-medium"
-                >Viesti</label
-              >
-              <textarea
-                id="message"
-                name="message"
-                rows="4"
-                class="w-full px-3 py-2 border border-gray-300 rounded-md"
-              ></textarea>
-            </div>
-            <button
-              type="submit"
-              value="Submit"
-              class="px-4 py-2 text-white bg-blue-500 rounded-md"
-            >
-              Lähetä
-            </button>
-          </form>
+      
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden p-4">
+          <h3 class="text-xl font-bold mb-4">Seuraa meitä Instagramissa</h3>
+          <div class="instagram-embed">
+            <a href="https://www.instagram.com/ilmajoenpyorahuolto/" target="_blank" rel="noopener noreferrer">
+              @ilmajoenpyorahuolto
+            </a>
+          </div>
+          <script async src="https://www.instagram.com/embed.js"></script>
         </div>
       </section>
     </div>
