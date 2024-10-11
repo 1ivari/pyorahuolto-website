@@ -27,7 +27,7 @@ body {
 }
 .footer {
   min-height: 40px;
-  background: linear-gradient(to bottom, #f8f9fa, #f2b635b2);
+  background: linear-gradient(to bottom, #f8f9fa, #358ff6);
   color: #fff;
   display: flex;
   justify-content: center;
