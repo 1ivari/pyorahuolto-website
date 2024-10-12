@@ -695,6 +695,10 @@ body {
   width: 100%;
 }
 
+.w-4\/5 {
+  width: 80%;
+}
+
 .min-w-\[30vw\] {
   min-width: 30vw;
 }
@@ -783,6 +787,10 @@ body {
 
 .pl-5 {
   padding-left: 1.25rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-right {
