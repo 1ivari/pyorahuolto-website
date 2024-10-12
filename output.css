@@ -699,6 +699,10 @@ body {
   width: 80%;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .min-w-\[30vw\] {
   min-width: 30vw;
 }
@@ -922,6 +926,14 @@ body {
 
   .md\:w-1\/2 {
     width: 50%;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
+  .md\:w-4\/5 {
+    width: 80%;
   }
 
   .md\:grid-cols-2 {
