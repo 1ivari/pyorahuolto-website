@@ -33,3 +33,23 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+@layer utilities {
+  .hero-text-container {
+    width: 85%;
+    max-width: 100%;
+    right: 0;
+  }
+
+  @media (max-width: 768px) {
+    .hero-text-container {
+      width: 70%;
+    }
+  }
+
+  @media (max-width: 425px) {
+    .hero-text-container {
+      width: 85%;
+    }
+  }
+}
